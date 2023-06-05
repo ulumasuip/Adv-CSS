@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="cardbacks.css">
+<svg class="svgcontainer"> 
+    <defs>
+       <symbol id="ring" viewbox="0 0 50 50">
+            <circle cx=25 cy=25 r=25 stroke="black" stroke-width="2" fill="white"/>
+       </symbol>
+       <symbol id="ring2" viewbox="0 0 10 50">
+            <circle cx=25 cy=25 r=25 fill="green"/>
+        </symbol>
+        <symbol id="ring3" viewbox="0 0 50 50">
+            <circle cx=25 cy=25 r=25 fill="black"/>
+       </symbol>
+      <pattern id='concentric' patternUnits="userSpaceOnUse" width=20 height=20 viewBox="0 0 150 150">
+          <use href="#ring" width=100 height=150 />    
+          <use href="#ring3" width=150 height=100 />
+          <use href="#ring2" width=80 height=100 />
+     </pattern>
+     </defs>
+   <rect x=0 y=0 width=100% height=100% fill="url(#concentric)" />
+ </svg>
+ 
+ 
+ <div class="triangle-container">
+       <svg height="200" width="200" viewBox="0 0 400 400">
+             <polygon points="400,0 0,400 400,400" class="triangle" />
+       </svg>
+ </div>
+ 
+ <svg class="svgcontainer"> 
+    <defs>
+       <symbol id="ring" viewbox="0 0 50 50">
+    <circle cx=25 cy=25 r=25 stroke="purple" stroke-width="2" fill="white"/>
+       </symbol>
+      <pattern id='concentric' patternUnits="userSpaceOnUse" width=20 height=20 viewBox="0 0 150 150">
+    <use href="#ring" width=50 height=50 />
+    <use href="#ring" width=100 height=100 />
+    <use href="#ring" width=70 height=70 />
+    <use href="#ring" width=50 height=50 />
+     </pattern>
+     </defs>
+   <rect x=0 y=0 width=100% height=100% fill="url(#concentric)" />
+ </svg>
+ 
+ 
+ 

@@ -1,0 +1,16 @@
+ANIMATION 3
+create circle
+create 2 left half circles
+create 2 right half circles
+
+transition full circle to first left half and 1st right half 
+
+transtion first left half circle to 2nd right half circle
+transtion first right half circle to 2nd right half circle
+
+-----------
+ANIMATION 4
+create 2 circles one normal one larger
+
+transition normal circle to larger circle
+transition large circle to small sircle
